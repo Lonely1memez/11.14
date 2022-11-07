@@ -35,7 +35,7 @@ return numVolumes;
 void Encyclopedia::PrintInfo() 
 {
 
-  cout << "Encyclopedia Information: " << endl;
+  cout << "Book Information: " << endl;
 
   cout << "   Book Title: " << title << endl;
 
@@ -47,6 +47,6 @@ void Encyclopedia::PrintInfo()
 
   cout << "   Edition: " << edition << endl;
 
-  cout << "   Volumn Number: " << numVolumes << endl;
+  cout << "   Number of Volumes: " << numVolumes << endl;
 
 }
